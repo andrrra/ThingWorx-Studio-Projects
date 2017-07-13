@@ -1,0 +1,207 @@
+{
+  "attributes": {
+    "twx-widget": "",
+    "widget-id": "view-1",
+    "viewtype": "ar",
+    "widget-name": "view-1",
+    "is-widget-container": "true"
+  },
+  "children": [{
+    "name": "twx-container-content",
+    "children": [{
+      "attributes": {
+        "twx-widget": "",
+        "widget-id": "x-d7a453ce-250c-4e69-9412-167a14747980",
+        "widget-name": "3D Container",
+        "is-widget-container": "true"
+      },
+      "name": "twx-dt-view",
+      "children": [{
+        "name": "twx-container-content",
+        "children": [{
+          "attributes": {
+            "twx-widget": "",
+            "widget-id": "thingMark-1",
+            "width": "0.05",
+            "rx": "-90",
+            "tracking-indicator": "true",
+            "widget-name": "thingMark-1"
+          },
+          "name": "twx-dt-target",
+          "children": [{
+            "attributes": {
+              "databind-id": "db-1499168916758",
+              "source-type": "data",
+              "source-name": "vumark",
+              "source-item-type": "value",
+              "source-item-name": "vumark",
+              "binding-type": "custom_field",
+              "from-expression": "app.params['vumark']",
+              "to-property": "markerId"
+            },
+            "name": "twx-databind"
+          }]
+        }, {
+          "attributes": {
+            "twx-widget": "",
+            "widget-id": "model-1",
+            "src": "Uploaded/blue_pump.pvz",
+            "scale": "0.3000",
+            "x": "-0.2197",
+            "y": "0.0117",
+            "z": "-0.1109",
+            "rx": "0.00",
+            "ry": "0.00",
+            "rz": "0.00",
+            "widget-name": "model-1"
+          },
+          "name": "twx-dt-model",
+          "children": [{
+            "attributes": {
+              "databind-id": "db-1499169898982",
+              "source-type": "ui",
+              "source-label": "Slider",
+              "source-name": "slider-1",
+              "source-item-type": "property",
+              "source-item-name": "value",
+              "binding-type": "widget_property",
+              "from-expression": "app.view['Home'].wdg['slider-1']['value']",
+              "to-property": "y"
+            },
+            "name": "twx-databind"
+          }, {
+            "attributes": {
+              "databind-id": "db-1499170202946",
+              "source-type": "ui",
+              "source-label": "Slider",
+              "source-name": "slider-1",
+              "source-item-type": "property",
+              "source-item-name": "value",
+              "binding-type": "widget_property",
+              "from-expression": "app.view['Home'].wdg['slider-1']['value']",
+              "to-property": "ry"
+            },
+            "name": "twx-databind"
+          }]
+        }]
+      }]
+    }, {
+      "attributes": {
+        "twx-widget": "",
+        "widget-id": "2DOverlay-1",
+        "widget-name": "2D Overlay",
+        "is-widget-container": "true"
+      },
+      "name": "twx-overlay",
+      "children": [{
+        "name": "twx-container-content",
+        "children": [{
+          "attributes": {
+            "twx-widget": "",
+            "widget-id": "panel-1",
+            "position": "top",
+            "widget-name": "Top Panel",
+            "is-widget-container": "true"
+          },
+          "name": "twx-overlay-container",
+          "children": [{
+            "name": "twx-container-content",
+            "children": [{
+              "attributes": {
+                "twx-widget": "",
+                "widget-id": "resourceImage-1",
+                "imgsrc": "Uploaded/logo.svg",
+                "widget-name": "resourceImage-1"
+              },
+              "name": "twx-image2"
+            }]
+          }]
+        }, {
+          "attributes": {
+            "twx-widget": "",
+            "widget-id": "2DOverlayBody-1",
+            "widget-name": "2D Body",
+            "is-widget-container": "true"
+          },
+          "name": "twx-overlay-body",
+          "children": [{
+            "name": "twx-container-content",
+            "children": [{
+              "attributes": {
+                "twx-widget": "",
+                "widget-id": "panel-2",
+                "position": "left",
+                "widget-name": "Left Panel",
+                "is-widget-container": "true"
+              },
+              "name": "twx-overlay-container",
+              "children": [{
+                "name": "twx-container-content"
+              }]
+            }, {
+              "attributes": {
+                "twx-widget": "",
+                "widget-id": "panel-3",
+                "position": "center",
+                "widget-name": "Center Panel",
+                "is-widget-container": "true"
+              },
+              "name": "twx-overlay-container",
+              "children": [{
+                "name": "twx-container-content",
+                "children": [{
+                  "attributes": {
+                    "twx-widget": "",
+                    "widget-id": "label-1",
+                    "text": "Use ThingWorx View to check out AR experiences!",
+                    "state-format-value": "text",
+                    "widget-name": "label-1"
+                  },
+                  "name": "twx-label"
+                }]
+              }]
+            }, {
+              "attributes": {
+                "twx-widget": "",
+                "widget-id": "panel-4",
+                "position": "right",
+                "widget-name": "Right Panel",
+                "is-widget-container": "true"
+              },
+              "name": "twx-overlay-container",
+              "children": [{
+                "name": "twx-container-content"
+              }]
+            }]
+          }]
+        }, {
+          "attributes": {
+            "twx-widget": "",
+            "widget-id": "panel-5",
+            "position": "bottom",
+            "widget-name": "Bottom Panel",
+            "is-widget-container": "true"
+          },
+          "name": "twx-overlay-container",
+          "children": [{
+            "name": "twx-container-content",
+            "children": [{
+              "attributes": {
+                "twx-widget": "",
+                "widget-id": "slider-1",
+                "max": "360",
+                "step": "15",
+                "value": "0",
+                "widget-name": "slider-1"
+              },
+              "name": "twx-range"
+            }]
+          }]
+        }]
+      }]
+    }]
+  }, {
+    "name": "twx-view-data"
+  }],
+  "name": "twx-view"
+}

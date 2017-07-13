@@ -1,0 +1,23 @@
+{
+  "proxyServer": "",
+  "thingServer": "https://ulzndwoe.studio-trial.thingworx.io",
+  "thingServerHistory": ["https://ulzndwoe.studio-trial.thingworx.io", "https://example.pp.thingworx.io"],
+  "recentProjects": ["Model_Translation", "Spinner", "JS_Timer", "JS_Example_1", "Tabletop_-_3D_Model", "StudioSample3DImport", "Tracker", "Tracker-copy", "Dynamic_Model_Loading", "My_Project"],
+  "importedSampleProjects": ["StudioSampleEyewear", "StudioSampleQuadcopter", "StudioSample3DImport"],
+  "acceptedLicense": true,
+  "autoConfigureDismissed": true,
+  "dev_portal_url": "https://studio.thingworx.com/api/v1",
+  "thingmarkDomain": 12439,
+  "thingmarks": {
+    "svg": {
+      "12439:1": "/thingmarks/12439-1.svg",
+      "12439:3": "/thingmarks/12439-3.svg",
+      "12439:2": "/thingmarks/12439-2.svg"
+    },
+    "png": {
+      "12439:3": "/thingmarks/12439-3.png",
+      "12439:2": "/thingmarks/12439-2.png",
+      "12439:1": "/thingmarks/12439-1.png"
+    }
+  }
+}

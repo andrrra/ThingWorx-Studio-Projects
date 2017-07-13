@@ -1,0 +1,297 @@
+{
+  "attributes": {
+    "twx-widget": "",
+    "widget-id": "view-1",
+    "viewtype": "ar",
+    "widget-name": "view-1",
+    "is-widget-container": "true"
+  },
+  "children": [{
+    "name": "twx-container-content",
+    "children": [{
+      "attributes": {
+        "twx-widget": "",
+        "widget-id": "x-08c4032c-a150-44cb-95ad-fc69a5fe790d",
+        "widget-name": "3D Container",
+        "is-widget-container": "true"
+      },
+      "name": "twx-dt-view",
+      "children": [{
+        "name": "twx-container-content",
+        "children": [{
+          "attributes": {
+            "twx-widget": "",
+            "widget-id": "thingMark-1",
+            "width": "0.05",
+            "rx": "90",
+            "ry": "0.00",
+            "tracking-indicator": "true",
+            "widget-name": "thingMark-1"
+          },
+          "name": "twx-dt-target",
+          "children": [{
+            "attributes": {
+              "databind-id": "db-1499677630920",
+              "source-type": "data",
+              "source-name": "vumark",
+              "source-item-type": "value",
+              "source-item-name": "vumark",
+              "binding-type": "custom_field",
+              "from-expression": "app.params['vumark']",
+              "to-property": "markerId"
+            },
+            "name": "twx-databind"
+          }]
+        }, {
+          "attributes": {
+            "twx-widget": "",
+            "widget-id": "3DLabel-1",
+            "text": "Thingmark Found",
+            "scale": "0.3000",
+            "x": "0.0000",
+            "y": "0.0101",
+            "z": "0.0000",
+            "rx": "0.01",
+            "ry": "0.00",
+            "rz": "0.00",
+            "widget-name": "3DLabel-1"
+          },
+          "name": "twx-dt-label",
+          "children": [{
+            "attributes": {
+              "databind-id": "db-1499678151809",
+              "source-type": "data",
+              "source-name": "xCoordModel",
+              "source-item-type": "value",
+              "source-item-name": "xCoordModel",
+              "binding-type": "custom_field",
+              "from-expression": "app.params['xCoordModel']",
+              "to-property": "x"
+            },
+            "name": "twx-databind"
+          }, {
+            "attributes": {
+              "databind-id": "db-1499678160658",
+              "source-type": "data",
+              "source-name": "yCoordModel",
+              "source-item-type": "value",
+              "source-item-name": "yCoordModel",
+              "binding-type": "custom_field",
+              "from-expression": "app.params['yCoordModel']",
+              "to-property": "y"
+            },
+            "name": "twx-databind"
+          }, {
+            "attributes": {
+              "databind-id": "db-1499678165286",
+              "source-type": "data",
+              "source-name": "zCoordModel",
+              "source-item-type": "value",
+              "source-item-name": "zCoordModel",
+              "binding-type": "custom_field",
+              "from-expression": "app.params['zCoordModel']",
+              "to-property": "z"
+            },
+            "name": "twx-databind"
+          }]
+        }]
+      }]
+    }, {
+      "attributes": {
+        "twx-widget": "",
+        "widget-id": "2DOverlay-1",
+        "widget-name": "2D Overlay",
+        "is-widget-container": "true"
+      },
+      "name": "twx-overlay",
+      "children": [{
+        "name": "twx-container-content",
+        "children": [{
+          "attributes": {
+            "twx-widget": "",
+            "widget-id": "panel-1",
+            "position": "top",
+            "widget-name": "Top Panel",
+            "is-widget-container": "true"
+          },
+          "name": "twx-overlay-container",
+          "children": [{
+            "name": "twx-container-content",
+            "children": [{
+              "attributes": {
+                "twx-widget": "",
+                "widget-id": "button-1",
+                "text": "Move X",
+                "class": "button-positive",
+                "widget-name": "button-1",
+                "click-expression": "moveModelX();"
+              },
+              "name": "twx-button"
+            }, {
+              "attributes": {
+                "twx-widget": "",
+                "widget-id": "button-2",
+                "text": "Move Y",
+                "class": "button-calm",
+                "widget-name": "button-2",
+                "click-expression": "moveModelY();"
+              },
+              "name": "twx-button"
+            }, {
+              "attributes": {
+                "twx-widget": "",
+                "widget-id": "button-4",
+                "text": "Move Z",
+                "class": "button-royal",
+                "widget-name": "button-4",
+                "click-expression": "moveModelZ();"
+              },
+              "name": "twx-button"
+            }, {
+              "attributes": {
+                "twx-widget": "",
+                "widget-id": "button-3",
+                "text": "Reset",
+                "class": "button-balanced",
+                "widget-name": "button-3",
+                "click-expression": "reset();"
+              },
+              "name": "twx-button"
+            }]
+          }]
+        }, {
+          "attributes": {
+            "twx-widget": "",
+            "widget-id": "2DOverlayBody-1",
+            "widget-name": "2D Body",
+            "is-widget-container": "true"
+          },
+          "name": "twx-overlay-body",
+          "children": [{
+            "name": "twx-container-content",
+            "children": [{
+              "attributes": {
+                "twx-widget": "",
+                "widget-id": "panel-2",
+                "position": "left",
+                "widget-name": "Left Panel",
+                "is-widget-container": "true"
+              },
+              "name": "twx-overlay-container",
+              "children": [{
+                "name": "twx-container-content"
+              }]
+            }, {
+              "attributes": {
+                "twx-widget": "",
+                "widget-id": "panel-3",
+                "position": "center",
+                "widget-name": "Center Panel",
+                "is-widget-container": "true"
+              },
+              "name": "twx-overlay-container",
+              "children": [{
+                "name": "twx-container-content"
+              }]
+            }, {
+              "attributes": {
+                "twx-widget": "",
+                "widget-id": "panel-4",
+                "position": "right",
+                "widget-name": "Right Panel",
+                "is-widget-container": "true"
+              },
+              "name": "twx-overlay-container",
+              "children": [{
+                "name": "twx-container-content"
+              }]
+            }]
+          }]
+        }, {
+          "attributes": {
+            "twx-widget": "",
+            "widget-id": "panel-5",
+            "position": "bottom",
+            "widget-name": "Bottom Panel",
+            "is-widget-container": "true"
+          },
+          "name": "twx-overlay-container",
+          "children": [{
+            "name": "twx-container-content",
+            "children": [{
+              "attributes": {
+                "twx-widget": "",
+                "widget-id": "valueDisplay-1",
+                "state-format-value": "value",
+                "value": "0",
+                "label": "X value:",
+                "widget-name": "valueDisplay-1"
+              },
+              "name": "twx-valuedisplay",
+              "children": [{
+                "attributes": {
+                  "databind-id": "db-1499173386393",
+                  "source-type": "data",
+                  "source-name": "xCoordModel",
+                  "source-item-type": "value",
+                  "source-item-name": "xCoordModel",
+                  "binding-type": "custom_field",
+                  "from-expression": "app.params['xCoordModel']",
+                  "to-property": "value"
+                },
+                "name": "twx-databind"
+              }]
+            }, {
+              "attributes": {
+                "twx-widget": "",
+                "widget-id": "valueDisplay-2",
+                "state-format-value": "value",
+                "label": "Y value:",
+                "widget-name": "valueDisplay-2"
+              },
+              "name": "twx-valuedisplay",
+              "children": [{
+                "attributes": {
+                  "databind-id": "db-1499173886551",
+                  "source-type": "data",
+                  "source-name": "yCoordModel",
+                  "source-item-type": "value",
+                  "source-item-name": "yCoordModel",
+                  "binding-type": "custom_field",
+                  "from-expression": "app.params['yCoordModel']",
+                  "to-property": "value"
+                },
+                "name": "twx-databind"
+              }]
+            }, {
+              "attributes": {
+                "twx-widget": "",
+                "widget-id": "valueDisplay-3",
+                "state-format-value": "value",
+                "label": "Z value:",
+                "widget-name": "valueDisplay-3"
+              },
+              "name": "twx-valuedisplay",
+              "children": [{
+                "attributes": {
+                  "databind-id": "db-1499173890444",
+                  "source-type": "data",
+                  "source-name": "zCoordModel",
+                  "source-item-type": "value",
+                  "source-item-name": "zCoordModel",
+                  "binding-type": "custom_field",
+                  "from-expression": "app.params['zCoordModel']",
+                  "to-property": "value"
+                },
+                "name": "twx-databind"
+              }]
+            }]
+          }]
+        }]
+      }]
+    }]
+  }, {
+    "name": "twx-view-data"
+  }],
+  "name": "twx-view"
+}

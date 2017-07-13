@@ -1,0 +1,64 @@
+{
+  "name": "Studio Sample - Import 3D Data",
+  "projectType": "AR",
+  "viewType": "ar",
+  "fileName": "StudioSample3DImport",
+  "mainNavigationMenuStyle": "noMenu",
+  "mainNavigationMenuItems": [],
+  "theme": "twx-light",
+  "hideExperienceHeader": false,
+  "guidanceURL": "resource/StudioSample3DImport/src/phone/guidance/guidance.html",
+  "resourceDirectory": "src/phone/resources",
+  "version": "1.14.536",
+  "device": {
+    "name": "phone",
+    "width": "713px",
+    "height": "402px"
+  },
+  "state": {
+    "orientation": "landscape"
+  },
+  "targets": {
+    "phone": {
+      "components": [
+        {
+          "name": "Home",
+          "fileName": "Home",
+          "showInMainMenu": true,
+          "viewType": "ar",
+          "title": "Home"
+        },
+        {
+          "name": "Choice",
+          "fileName": "Choice",
+          "showInMainMenu": true,
+          "viewType": "ionic-2D",
+          "title": "Choice"
+        }
+      ],
+      "images": []
+    },
+    "shared": {
+      "components": [
+        {
+          "name": "Data",
+          "fileName": "Data"
+        }
+      ],
+      "images": [],
+      "styles": [
+        {
+          "name": "App",
+          "fileName": "App",
+          "fileExt": "scss"
+        }
+      ]
+    }
+  },
+  "previewUrl": "http://localhost:3000/preview.html?project=${project}&format=${format}&orientation=${orientation}&phone=true",
+  "resourceRuntimeDir": "app/resources",
+  "thumbnail": "Uploaded/3D-thumbnail.png",
+  "fontRuntimeDir": "../fonts",
+  "fontDesigntimeDir": "../dist/phone/fonts",
+  "thingworxServer": "https://ulzndwoe.studio-trial.thingworx.io"
+}

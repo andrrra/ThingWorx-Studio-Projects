@@ -1,0 +1,114 @@
+{
+  "attributes": {
+    "twx-widget": "",
+    "widget-id": "view-1",
+    "viewtype": "ionic-2D",
+    "widget-name": "view-1",
+    "is-widget-container": "true"
+  },
+  "children": [{
+    "name": "twx-container-content",
+    "children": [{
+      "attributes": {
+        "twx-widget": "",
+        "widget-id": "gridLayout-1",
+        "widget-name": "gridLayout-1",
+        "is-widget-container": "true"
+      },
+      "name": "twx-gridlayout",
+      "children": [{
+        "name": "twx-container-content",
+        "children": [{
+          "attributes": {
+            "twx-widget": "",
+            "widget-id": "row-1",
+            "widget-name": "row-1",
+            "is-widget-container": "true"
+          },
+          "name": "twx-row",
+          "children": [{
+            "name": "twx-container-content",
+            "children": [{
+              "attributes": {
+                "twx-widget": "",
+                "widget-id": "column-1",
+                "widget-name": "column-1",
+                "is-widget-container": "true"
+              },
+              "name": "twx-col",
+              "children": [{
+                "name": "twx-container-content",
+                "children": [{
+                  "attributes": {
+                    "twx-widget": "",
+                    "widget-id": "button-1",
+                    "text": "Start",
+                    "widget-name": "button-1",
+                    "click-expression": "start();"
+                  },
+                  "name": "twx-button"
+                }]
+              }]
+            }, {
+              "attributes": {
+                "twx-widget": "",
+                "widget-id": "column-2",
+                "widget-name": "column-2",
+                "is-widget-container": "true"
+              },
+              "name": "twx-col",
+              "children": [{
+                "name": "twx-container-content",
+                "children": [{
+                  "attributes": {
+                    "twx-widget": "",
+                    "widget-id": "button-2",
+                    "text": "Cancel",
+                    "widget-name": "button-2",
+                    "click-expression": "cancel();"
+                  },
+                  "name": "twx-button"
+                }]
+              }]
+            }, {
+              "attributes": {
+                "twx-widget": "",
+                "widget-id": "column-3",
+                "widget-name": "column-3",
+                "is-widget-container": "true"
+              },
+              "name": "twx-col",
+              "children": [{
+                "name": "twx-container-content",
+                "children": [{
+                  "attributes": {
+                    "twx-widget": "",
+                    "widget-id": "spinner-1",
+                    "widget-name": "spinner-1"
+                  },
+                  "name": "twx-spinner",
+                  "children": [{
+                    "attributes": {
+                      "databind-id": "db-1499171594184",
+                      "source-type": "data",
+                      "source-name": "spinnerVisible",
+                      "source-item-type": "value",
+                      "source-item-name": "spinnerVisible",
+                      "binding-type": "custom_field",
+                      "from-expression": "app.params['spinnerVisible']",
+                      "to-property": "visible"
+                    },
+                    "name": "twx-databind"
+                  }]
+                }]
+              }]
+            }]
+          }]
+        }]
+      }]
+    }]
+  }, {
+    "name": "twx-view-data"
+  }],
+  "name": "twx-view"
+}

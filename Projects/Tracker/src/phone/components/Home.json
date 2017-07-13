@@ -1,0 +1,149 @@
+{
+  "attributes": {
+    "twx-widget": "",
+    "widget-id": "view-1",
+    "viewtype": "ar",
+    "widget-name": "view-1",
+    "is-widget-container": "true"
+  },
+  "children": [{
+    "name": "twx-container-content",
+    "children": [{
+      "attributes": {
+        "twx-widget": "",
+        "widget-id": "x-fc753c0a-cdc6-45e3-83f6-3b396b323caa",
+        "widget-name": "3D Container",
+        "is-widget-container": "true"
+      },
+      "name": "twx-dt-view",
+      "children": [{
+        "name": "twx-container-content",
+        "children": [{
+          "attributes": {
+            "twx-widget": "",
+            "widget-id": "thingMark-1",
+            "width": "0.0254",
+            "rx": "-90",
+            "tracking-indicator": "true",
+            "widget-name": "thingMark-1"
+          },
+          "name": "twx-dt-target",
+          "children": [{
+            "attributes": {
+              "databind-id": "db-1499013204544",
+              "source-type": "data",
+              "source-name": "vumark",
+              "source-item-type": "value",
+              "source-item-name": "vumark",
+              "binding-type": "custom_field",
+              "from-expression": "app.params['vumark']",
+              "to-property": "markerId"
+            },
+            "name": "twx-databind"
+          }]
+        }, {
+          "attributes": {
+            "twx-widget": "",
+            "widget-id": "3DLabel-1",
+            "text": "Thingmark found",
+            "scale": "0.5",
+            "x": "-0.0178",
+            "z": "-0.0285",
+            "rx": "0",
+            "ry": "0.00",
+            "rz": "-0.00",
+            "widget-name": "3DLabel-1"
+          },
+          "name": "twx-dt-label"
+        }]
+      }]
+    }, {
+      "attributes": {
+        "twx-widget": "",
+        "widget-id": "2DOverlay-1",
+        "widget-name": "2D Overlay",
+        "is-widget-container": "true"
+      },
+      "name": "twx-overlay",
+      "children": [{
+        "name": "twx-container-content",
+        "children": [{
+          "attributes": {
+            "twx-widget": "",
+            "widget-id": "panel-1",
+            "position": "top",
+            "widget-name": "Top Panel",
+            "is-widget-container": "true"
+          },
+          "name": "twx-overlay-container",
+          "children": [{
+            "name": "twx-container-content"
+          }]
+        }, {
+          "attributes": {
+            "twx-widget": "",
+            "widget-id": "2DOverlayBody-1",
+            "widget-name": "2D Body",
+            "is-widget-container": "true"
+          },
+          "name": "twx-overlay-body",
+          "children": [{
+            "name": "twx-container-content",
+            "children": [{
+              "attributes": {
+                "twx-widget": "",
+                "widget-id": "panel-2",
+                "position": "left",
+                "widget-name": "Left Panel",
+                "is-widget-container": "true"
+              },
+              "name": "twx-overlay-container",
+              "children": [{
+                "name": "twx-container-content"
+              }]
+            }, {
+              "attributes": {
+                "twx-widget": "",
+                "widget-id": "panel-3",
+                "position": "center",
+                "widget-name": "Center Panel",
+                "is-widget-container": "true"
+              },
+              "name": "twx-overlay-container",
+              "children": [{
+                "name": "twx-container-content"
+              }]
+            }, {
+              "attributes": {
+                "twx-widget": "",
+                "widget-id": "panel-4",
+                "position": "right",
+                "widget-name": "Right Panel",
+                "is-widget-container": "true"
+              },
+              "name": "twx-overlay-container",
+              "children": [{
+                "name": "twx-container-content"
+              }]
+            }]
+          }]
+        }, {
+          "attributes": {
+            "twx-widget": "",
+            "widget-id": "panel-5",
+            "position": "bottom",
+            "widget-name": "Bottom Panel",
+            "is-widget-container": "true"
+          },
+          "name": "twx-overlay-container",
+          "children": [{
+            "name": "twx-container-content"
+          }]
+        }]
+      }]
+    }]
+  }, {
+    "name": "twx-view-data"
+  }],
+  "name": "twx-view"
+}

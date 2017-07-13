@@ -1,0 +1,121 @@
+{
+  "name": "Studio Sample - Quadcopter",
+  "projectType": "AR",
+  "viewType": "ar",
+  "fileName": "StudioSampleQuadcopter",
+  "mainNavigationMenuStyle": "noMenu",
+  "mainNavigationMenuItems": [],
+  "theme": "twx-light",
+  "hideExperienceHeader": false,
+  "resourceDirectory": "src/phone/resources",
+  "guidanceURL": "resource/StudioSampleQuadcopter/src/phone/guidance/guidance.html",
+  "version": "1.8.279",
+  "parameters": {
+    "vumark": {
+      "name": "ThingMark",
+      "id": "vumark",
+      "value": "",
+      "isBound": false,
+      "isDeletable": false
+    },
+    "template": {
+      "name": "Thing Template",
+      "id": "template",
+      "value": "",
+      "isBound": false,
+      "isDeletable": false
+    },
+    "thing": {
+      "name": "Thing",
+      "id": "thing",
+      "value": "",
+      "isBound": false,
+      "isDeletable": false
+    },
+    "ry": {
+      "name": "ry",
+      "id": "ry",
+      "value": ""
+    },
+    "tiltX": {
+      "value": "",
+      "name": "tiltX",
+      "id": "tiltX"
+    },
+    "tiltZ": {
+      "value": "",
+      "name": "tiltZ",
+      "id": "tiltZ"
+    },
+    "xpos": {
+      "value": "",
+      "name": "xpos",
+      "id": "xpos"
+    },
+    "ypos": {
+      "value": "",
+      "name": "ypos",
+      "id": "ypos"
+    },
+    "zpos": {
+      "value": "",
+      "name": "zpos",
+      "id": "zpos"
+    },
+    "markerRotation": {
+      "name": "markerRotation",
+      "id": "markerRotation"
+    }
+  },
+  "device": {
+    "name": "phone",
+    "width": "402px",
+    "height": "713px"
+  },
+  "state": {
+    "orientation": "portrait"
+  },
+  "targets": {
+    "phone": {
+      "components": [
+        {
+          "name": "Home",
+          "fileName": "Home",
+          "showInMainMenu": true,
+          "viewType": "ar",
+          "title": "Home"
+        },
+        {
+          "name": "Choice",
+          "fileName": "Choice",
+          "showInMainMenu": true,
+          "viewType": "ionic-2D",
+          "title": "Choice"
+        }
+      ],
+      "images": []
+    },
+    "shared": {
+      "components": [
+        {
+          "name": "Data",
+          "fileName": "Data"
+        }
+      ],
+      "images": [],
+      "styles": [
+        {
+          "name": "App",
+          "fileName": "App",
+          "fileExt": "scss"
+        }
+      ]
+    }
+  },
+  "previewUrl": "http://localhost:3000/preview.html?project=${project}&format=${format}&orientation=${orientation}&phone=true",
+  "resourceRuntimeDir": "app/resources",
+  "thumbnail": "Uploaded/gallery_thumbnail_drone.png",
+  "fontRuntimeDir": "../fonts",
+  "fontDesigntimeDir": "../dist/phone/fonts",
+  "thingworxServer": "https://ulzndwoe.studio-trial.thingworx.io"
+}
